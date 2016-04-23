@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   time_end  = '';
   current_word = 0;
   current_latter = 0;
-  word_size = 3;
-  total_words = 10;
+  word_size = 5;
+  total_words = 25;
   var typehint = document.getElementById('typehint');
   typehint.innerHTML = randomWords(word_size,total_words);
   document.getElementsByClassName('word')[current_word].classList.add('underline');
