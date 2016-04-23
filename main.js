@@ -19,7 +19,7 @@ function randomWords(length=3, words=50) {
 function calculateSpeed() {
   time_end = new Date();
   diff = (time_end.getTime() - time_start.getTime())/1000;
-  return Math.ceil(diff/total_words) + " WPS";
+  return Math.ceil(diff/total_words) + " seconds/word";
 }
 
 function checkTyping(e) {
