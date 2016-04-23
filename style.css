@@ -70,6 +70,18 @@ span.plus {
   font-size: 25px;
   font-family: cursive;
   word-spacing: 36px;
+  color: #000;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: red !important;
+}
+
+.dim {
   color: silver;
 }
 
