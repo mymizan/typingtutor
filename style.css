@@ -83,5 +83,7 @@ span.plus {
 
 .dim {
   color: silver;
+  background-color: red;
+  display: inline-block;
 }
 
