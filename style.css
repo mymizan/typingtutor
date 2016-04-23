@@ -1,0 +1,75 @@
+body {
+  width: 600px;
+  margin: auto auto;
+}
+
+#keyboard {
+  background: #F0F0F0;
+  width: 270px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto auto;
+}
+
+#keyboard span {
+  color: white;
+  background: black;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  border: outset;
+}
+
+span.numlock {
+}
+
+span.plus {
+  position: absolute;
+  height: 87px;
+}
+
+#keyboard span.enter {
+  font-size: 10px;
+  position: absolute;
+  height: 87px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+
+#keyboard span.zero {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#keyboard span:hover {
+  background: blue;
+}
+
+#keyboard span:active {
+  background: green;
+  border: inset;
+}
+
+#keyboard span::selection {
+  background: transparent;
+}
+
+#keyboard span::-moz-selection {
+  background: transparent;
+}
+
+#typehint {
+  width: 600px;
+  height: 200px;
+  margin-bottom: 30px;
+  border: 2px solid green;
+  padding: 15px;
+  font-size: 25px;
+  font-family: cursive;
+  word-spacing: 36px;
+  color: silver;
+}
+
